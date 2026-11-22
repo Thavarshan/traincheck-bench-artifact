@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use the benchmark implementation or archived measurements, cite the TrainCheck Bench artifact release."
+title: "TrainCheck Bench: Implementation and Archived Results"
+type: software
+authors:
+  - name: "TrainCheck Bench project"
+abstract: "CPU-only PyTorch benchmark and archived experiment records for silent neural-network training faults in continuous integration."
+repository-code: "https://github.com/Thavarshan/traincheck-bench-artifact"
+url: "https://github.com/Thavarshan/traincheck-bench-artifact/releases/tag/v0.1.0"
+version: "0.1.0"
+commit: "3a1eb4d129fe0c471256b1dee1722b571772d79d"
+date-released: "2026-11-23"
+keywords:
+  - continuous integration
+  - machine learning testing
+  - training faults
+  - reproducible research

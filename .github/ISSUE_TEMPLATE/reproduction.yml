@@ -1,0 +1,16 @@
+name: Archive reproduction
+description: Ask about or report a discrepancy in an archived result.
+title: "[Reproduction] "
+body:
+  - type: input
+    id: archive
+    attributes:
+      label: Study, run ID, or archive path
+      placeholder: results/matched-calibration/45057254348/
+  - type: textarea
+    id: discrepancy
+    attributes:
+      label: Question or discrepancy
+      description: Include the reproduction command and the output or result you are comparing.
+    validations:
+      required: true
