@@ -1,0 +1,202 @@
+{
+  "manifests": [
+    {
+      "workload": "digits",
+      "phase": "development",
+      "source_revision": "289a97ebe97a8dcde3ba533683b87d2bec5a481d",
+      "design": {
+        "status": "development",
+        "workloads": [
+          "digits",
+          "wine"
+        ],
+        "faults": [
+          "healthy",
+          "skip_step",
+          "intermittent_skip_step",
+          "detached_gradients",
+          "wrong_labels",
+          "train_eval_mode",
+          "preprocessing_mismatch"
+        ],
+        "budgets_seconds": [
+          0.025,
+          0.25
+        ],
+        "development_seed_range": [
+          501,
+          510
+        ],
+        "confirmatory_seed_range": [
+          601,
+          680
+        ],
+        "order_seed_offset": 56013,
+        "max_steps": 10000
+      },
+      "design_sha256": "0a9b68bf80459fb27e1a7a46aaf4eb4aff4b8b01cfb556230cbd976cae947bd3",
+      "records_sha256": "086babdce912ca828ab131f8dd8e92ccdde07d6ba30a4192f6d6b2cbc7413fed",
+      "data_sha256": {
+        "optdigits.tes": "6ebb3d2fee246a4e99363262ddf8a00a3c41bee6014c373ed9d9216ba7f651b8",
+        "optdigits.tra": "e1b683cc211604fe8fd8c4417e6a69f31380e0c61d4af22e93cc21e9257ffedd",
+        "wine.data": "6be6b1203f3d51df0b553a70e57b8a723cd405683958204f96d23d7cd6aea659"
+      },
+      "record_count": 140,
+      "failed_runs": 0,
+      "sweep_wall_seconds": 20.14438856400001,
+      "cpu_model": "Intel(R) Xeon(R) 6975P-C",
+      "cpu_count": 4,
+      "host_platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+      "tracked_source_changes": false,
+      "python_version": "3.11.18",
+      "torch_version": "2.6.0+cpu",
+      "workflow_run_id": "45018687169",
+      "workflow_attempt": "1"
+    },
+    {
+      "workload": "wine",
+      "phase": "development",
+      "source_revision": "289a97ebe97a8dcde3ba533683b87d2bec5a481d",
+      "design": {
+        "status": "development",
+        "workloads": [
+          "digits",
+          "wine"
+        ],
+        "faults": [
+          "healthy",
+          "skip_step",
+          "intermittent_skip_step",
+          "detached_gradients",
+          "wrong_labels",
+          "train_eval_mode",
+          "preprocessing_mismatch"
+        ],
+        "budgets_seconds": [
+          0.025,
+          0.25
+        ],
+        "development_seed_range": [
+          501,
+          510
+        ],
+        "confirmatory_seed_range": [
+          601,
+          680
+        ],
+        "order_seed_offset": 56013,
+        "max_steps": 10000
+      },
+      "design_sha256": "0a9b68bf80459fb27e1a7a46aaf4eb4aff4b8b01cfb556230cbd976cae947bd3",
+      "records_sha256": "da05f51e2a45dc09a1aa1356df56934261324a79b69629c49a3ed2829ba9b995",
+      "data_sha256": {
+        "optdigits.tes": "6ebb3d2fee246a4e99363262ddf8a00a3c41bee6014c373ed9d9216ba7f651b8",
+        "optdigits.tra": "e1b683cc211604fe8fd8c4417e6a69f31380e0c61d4af22e93cc21e9257ffedd",
+        "wine.data": "6be6b1203f3d51df0b553a70e57b8a723cd405683958204f96d23d7cd6aea659"
+      },
+      "record_count": 140,
+      "failed_runs": 0,
+      "sweep_wall_seconds": 20.42065094,
+      "cpu_model": "AMD EPYC 7763 64-Core Processor",
+      "cpu_count": 4,
+      "host_platform": "Linux-7.0.0-1017-azure-x86_64-with-glibc2.39",
+      "tracked_source_changes": false,
+      "python_version": "3.11.18",
+      "torch_version": "2.6.0+cpu",
+      "workflow_run_id": "45018687169",
+      "workflow_attempt": "1"
+    }
+  ],
+  "hypotheses": [
+    {
+      "hypothesis": "H1_partial_minus_full",
+      "workload": "digits",
+      "budget_seconds": 0.025,
+      "pairs": 10,
+      "left_only": 0,
+      "right_only": 0,
+      "left_minus_right": 0.0,
+      "exact_p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "hypothesis": "H2_seven_minus_augmented",
+      "workload": "digits",
+      "budget_seconds": 0.025,
+      "pairs": 10,
+      "left_only": 0,
+      "right_only": 0,
+      "left_minus_right": 0.0,
+      "exact_p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "hypothesis": "H1_partial_minus_full",
+      "workload": "digits",
+      "budget_seconds": 0.25,
+      "pairs": 10,
+      "left_only": 0,
+      "right_only": 10,
+      "left_minus_right": -1.0,
+      "exact_p": 0.001953125,
+      "holm_p": 0.015625
+    },
+    {
+      "hypothesis": "H2_seven_minus_augmented",
+      "workload": "digits",
+      "budget_seconds": 0.25,
+      "pairs": 10,
+      "left_only": 0,
+      "right_only": 10,
+      "left_minus_right": -1.0,
+      "exact_p": 0.001953125,
+      "holm_p": 0.015625
+    },
+    {
+      "hypothesis": "H1_partial_minus_full",
+      "workload": "wine",
+      "budget_seconds": 0.025,
+      "pairs": 10,
+      "left_only": 0,
+      "right_only": 10,
+      "left_minus_right": -1.0,
+      "exact_p": 0.001953125,
+      "holm_p": 0.015625
+    },
+    {
+      "hypothesis": "H2_seven_minus_augmented",
+      "workload": "wine",
+      "budget_seconds": 0.025,
+      "pairs": 10,
+      "left_only": 0,
+      "right_only": 10,
+      "left_minus_right": -1.0,
+      "exact_p": 0.001953125,
+      "holm_p": 0.015625
+    },
+    {
+      "hypothesis": "H1_partial_minus_full",
+      "workload": "wine",
+      "budget_seconds": 0.25,
+      "pairs": 10,
+      "left_only": 0,
+      "right_only": 10,
+      "left_minus_right": -1.0,
+      "exact_p": 0.001953125,
+      "holm_p": 0.015625
+    },
+    {
+      "hypothesis": "H2_seven_minus_augmented",
+      "workload": "wine",
+      "budget_seconds": 0.25,
+      "pairs": 10,
+      "left_only": 0,
+      "right_only": 10,
+      "left_minus_right": -1.0,
+      "exact_p": 0.001953125,
+      "holm_p": 0.015625
+    }
+  ],
+  "dataset_cells": 28,
+  "analysis_sha256": "c27e7afb90b6aac2e243e34c4893fe5e837816a555f3399923d2fb399a3ed904"
+}

@@ -1,0 +1,4 @@
+condition,pairs,left_only,right_only,left_minus_right,exact_p,holm_p
+plain,80,0,0,0.0,1.0,1.0
+accumulate2,80,69,0,0.8625,3.3881317890172014e-21,1.0164395367051604e-20
+declared_skip4,80,3,0,0.0375,0.25,0.5

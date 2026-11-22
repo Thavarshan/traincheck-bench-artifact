@@ -1,0 +1,17 @@
+{
+  "status": "frozen",
+  "workloads": ["digits", "wine", "fashion"],
+  "steps": 64,
+  "development_seeds": [1401, 1440],
+  "evaluation_seeds": [1501, 1540],
+  "population_target": 0.05,
+  "conditions": {
+    "plain": {"schedule": "plain", "pattern": "none", "denominator": 1},
+    "missing_reset": {"schedule": "plain", "pattern": "none", "denominator": 1, "gradient_fault": "missing_zero_grad"},
+    "accumulate2": {"schedule": "accumulate2", "pattern": "none", "denominator": 1},
+    "unscaled": {"schedule": "accumulate2", "pattern": "none", "denominator": 1, "gradient_fault": "unscaled_accumulation"}
+  },
+  "bootstrap_samples": 4000,
+  "bootstrap_seed": 28107,
+  "wine_control": "docs/research/UPDATE_CONTROL.json"
+}

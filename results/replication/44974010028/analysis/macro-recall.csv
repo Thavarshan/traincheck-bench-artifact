@@ -1,0 +1,15 @@
+phase,source_file,budget_seconds,check,fault_classes_expected,fault_classes_observed,successful_fault_runs,observed_fault_runs,failed_fault_runs,missing_check_outputs,macro_recall,macro_complete_for_successful_runs,interpretation
+exploratory,44974010028-1.jsonl,0.025,early_loss_decrease,2,2,60,60,0,0,0.5,True,matched fixed-batch reference losses; cutoff exploratory; correct-label oracle assumed
+exploratory,44974010028-1.jsonl,0.025,finite_loss,2,2,60,60,0,0,0.0,True,training-step and matched-reference finiteness; candidate; not calibrated
+exploratory,44974010028-1.jsonl,0.025,nonzero_gradients,2,2,60,60,0,0,0.0,True,finite nonzero gradients at every executed step; candidate; not calibrated
+exploratory,44974010028-1.jsonl,0.025,preprocessing_contract,2,2,60,60,0,0,0.0,True,"train/serve tensor agreement on shared raw probe; direct contract, not production validation"
+exploratory,44974010028-1.jsonl,0.025,tiny_batch_overfit,2,2,60,60,0,0,0.5,True,matched reference-batch loss threshold; not calibrated
+exploratory,44974010028-1.jsonl,0.025,training_mode,2,2,60,60,0,0,0.0,True,mode observed during optimization steps; directly observable contract
+exploratory,44974010028-1.jsonl,0.025,weight_update,2,2,60,60,0,0,0.5,True,at least one parameter changed; direct update observable; candidate
+exploratory,44974010028-1.jsonl,0.25,early_loss_decrease,2,2,60,60,0,0,0.5,True,matched fixed-batch reference losses; cutoff exploratory; correct-label oracle assumed
+exploratory,44974010028-1.jsonl,0.25,finite_loss,2,2,60,60,0,0,0.0,True,training-step and matched-reference finiteness; candidate; not calibrated
+exploratory,44974010028-1.jsonl,0.25,nonzero_gradients,2,2,60,60,0,0,0.0,True,finite nonzero gradients at every executed step; candidate; not calibrated
+exploratory,44974010028-1.jsonl,0.25,preprocessing_contract,2,2,60,60,0,0,0.0,True,"train/serve tensor agreement on shared raw probe; direct contract, not production validation"
+exploratory,44974010028-1.jsonl,0.25,tiny_batch_overfit,2,2,60,60,0,0,0.5,True,matched reference-batch loss threshold; not calibrated
+exploratory,44974010028-1.jsonl,0.25,training_mode,2,2,60,60,0,0,0.0,True,mode observed during optimization steps; directly observable contract
+exploratory,44974010028-1.jsonl,0.25,weight_update,2,2,60,60,0,0,0.5,True,at least one parameter changed; direct update observable; candidate

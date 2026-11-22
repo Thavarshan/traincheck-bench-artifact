@@ -1,0 +1,617 @@
+{
+  "phase": "evaluation",
+  "thresholds": {
+    "digits": {
+      "wall25": 0.6358469982679671,
+      "fixed64": 0.878410920404846
+    },
+    "wine": {
+      "wall25": 0.07769650130131128,
+      "fixed64": 0.2177401436405037
+    },
+    "fashion": {
+      "wall25": 0.9811277303084164,
+      "fixed64": 0.7181259163045313
+    }
+  },
+  "manifests": [
+    {
+      "design": {
+        "status": "frozen",
+        "workloads": [
+          "digits",
+          "wine",
+          "fashion"
+        ],
+        "budgets": {
+          "wall25": {
+            "seconds": 0.025
+          },
+          "fixed64": {
+            "steps": 64
+          }
+        },
+        "development_seeds": [
+          701,
+          740
+        ],
+        "evaluation_seeds": [
+          801,
+          880
+        ],
+        "population_target": 0.05,
+        "denominators": [
+          2,
+          4,
+          8,
+          16
+        ],
+        "patterns": [
+          "periodic",
+          "bernoulli"
+        ],
+        "primary_denominator": 4,
+        "thresholds": {
+          "digits": {
+            "wall25": 0.6358469982679671,
+            "fixed64": 0.878410920404846
+          },
+          "wine": {
+            "wall25": 0.07769650130131128,
+            "fixed64": 0.2177401436405037
+          },
+          "fashion": {
+            "wall25": 0.9811277303084164,
+            "fixed64": 0.7181259163045313
+          }
+        },
+        "development_run": 45045512022,
+        "development_summary_sha256": "d2934350eb2acf2c22824b46d448b85971e35100ac713ed9ae6ae32589921116",
+        "development_records_sha256": {
+          "digits": "34c9775a28b815d8ccd08af0b3c66e0aaa1e14aefcc57e26a5677bf4b7d5cda1",
+          "wine": "f8e8ce0aed43dc82e834a55048b6224973e945e84cce0676f5eb1031c52b3b5e",
+          "fashion": "11c95bfd5b634a419f83420ba3c96f0bab73cdd21cf4d5bd824693ab5585db34"
+        },
+        "frozen_files": {
+          ".github/workflows/optimizer-schedule-study.yml": "db042d5783fefe28ae8910f4201cbbf51517e21502d4820f5f8d5bd0c9345e3e",
+          "docs/research/SCHEDULE_PROTOCOL.md": "67f6d53d97df64118181ae94070b17b72cc816d36bd00b3e3d59ca1cf62406fd",
+          "traincheck/schedule_study.py": "466e9a67bbc521ebdb6dad1e317b4ab7dc70e5af9a1eb62801d2bafc3f9229e6",
+          "traincheck/heldout_datasets.py": "cd298d744f0864b2a9ddb2056498b72f43535543553ccd25663a1a109167c3f1",
+          "traincheck/heldout_workload.py": "a475f0623cb400b615dc2d7cf18f1ceed4068eb31cb2801d082bcb2983467b8c",
+          "docs/scripts/run_schedule_study.py": "91ce59fd3cb2fd2f9f8d14e1b4b6f35860de67bbc94ae92c2f79ef53f53d6fc9",
+          "docs/scripts/analyze_schedule_study.py": "890d9f07768718a776b9ed0fc9a8e7163d4def86b4f663cc237c7bb7340fc84c",
+          "docs/scripts/analyze_public_workload.py": "d8a6665e08561de9aa2475fd24dd101bd82c1998d16c070f1128b68c58fca919",
+          "requirements/study-cpu.txt": "16a336a5f77dc72f80e8a1b534ab0bc49e067470ef38a6127d572352df6fa339"
+        }
+      },
+      "phase": "evaluation",
+      "workload": "digits",
+      "conditions": {
+        "plain": {
+          "schedule": "plain",
+          "pattern": "none",
+          "denominator": 1
+        },
+        "accumulate2": {
+          "schedule": "accumulate2",
+          "pattern": "none",
+          "denominator": 1
+        },
+        "declared_skip4": {
+          "schedule": "declared_skip4",
+          "pattern": "none",
+          "denominator": 1
+        },
+        "full": {
+          "schedule": "plain",
+          "pattern": "periodic",
+          "denominator": 1
+        },
+        "periodic2": {
+          "schedule": "plain",
+          "pattern": "periodic",
+          "denominator": 2
+        },
+        "periodic4": {
+          "schedule": "plain",
+          "pattern": "periodic",
+          "denominator": 4
+        },
+        "periodic8": {
+          "schedule": "plain",
+          "pattern": "periodic",
+          "denominator": 8
+        },
+        "periodic16": {
+          "schedule": "plain",
+          "pattern": "periodic",
+          "denominator": 16
+        },
+        "bernoulli2": {
+          "schedule": "plain",
+          "pattern": "bernoulli",
+          "denominator": 2
+        },
+        "bernoulli4": {
+          "schedule": "plain",
+          "pattern": "bernoulli",
+          "denominator": 4
+        },
+        "bernoulli8": {
+          "schedule": "plain",
+          "pattern": "bernoulli",
+          "denominator": 8
+        },
+        "bernoulli16": {
+          "schedule": "plain",
+          "pattern": "bernoulli",
+          "denominator": 16
+        }
+      },
+      "source_revision": "23bd43a6f273afcd5d98285500debbbedf0a12e3",
+      "config_sha256": "c33c04868b83d40f3cb3ab9d359cde5c8073caf03fd52d6f3395b50656d7f776",
+      "records_sha256": "1777cbb8a0f7fa220b9980653d65e34d071cb5e8b65616d7ce83ccff1d03d2e1",
+      "dataset_sha256": {
+        "optdigits.tes": "6ebb3d2fee246a4e99363262ddf8a00a3c41bee6014c373ed9d9216ba7f651b8",
+        "optdigits.tra": "e1b683cc211604fe8fd8c4417e6a69f31380e0c61d4af22e93cc21e9257ffedd",
+        "wine.data": "6be6b1203f3d51df0b553a70e57b8a723cd405683958204f96d23d7cd6aea659"
+      },
+      "record_count": 1920,
+      "failures": 0,
+      "workflow_run_id": "45045778246",
+      "workflow_attempt": "1",
+      "python": "3.11.18",
+      "torch": "2.6.0+cpu",
+      "platform": "Linux-7.0.0-1017-azure-x86_64-with-glibc2.39",
+      "cpu_model": "AMD EPYC 7763 64-Core Processor",
+      "threads": 1,
+      "train": 3060,
+      "validation": 763,
+      "test": 1797
+    },
+    {
+      "design": {
+        "status": "frozen",
+        "workloads": [
+          "digits",
+          "wine",
+          "fashion"
+        ],
+        "budgets": {
+          "wall25": {
+            "seconds": 0.025
+          },
+          "fixed64": {
+            "steps": 64
+          }
+        },
+        "development_seeds": [
+          701,
+          740
+        ],
+        "evaluation_seeds": [
+          801,
+          880
+        ],
+        "population_target": 0.05,
+        "denominators": [
+          2,
+          4,
+          8,
+          16
+        ],
+        "patterns": [
+          "periodic",
+          "bernoulli"
+        ],
+        "primary_denominator": 4,
+        "thresholds": {
+          "digits": {
+            "wall25": 0.6358469982679671,
+            "fixed64": 0.878410920404846
+          },
+          "wine": {
+            "wall25": 0.07769650130131128,
+            "fixed64": 0.2177401436405037
+          },
+          "fashion": {
+            "wall25": 0.9811277303084164,
+            "fixed64": 0.7181259163045313
+          }
+        },
+        "development_run": 45045512022,
+        "development_summary_sha256": "d2934350eb2acf2c22824b46d448b85971e35100ac713ed9ae6ae32589921116",
+        "development_records_sha256": {
+          "digits": "34c9775a28b815d8ccd08af0b3c66e0aaa1e14aefcc57e26a5677bf4b7d5cda1",
+          "wine": "f8e8ce0aed43dc82e834a55048b6224973e945e84cce0676f5eb1031c52b3b5e",
+          "fashion": "11c95bfd5b634a419f83420ba3c96f0bab73cdd21cf4d5bd824693ab5585db34"
+        },
+        "frozen_files": {
+          ".github/workflows/optimizer-schedule-study.yml": "db042d5783fefe28ae8910f4201cbbf51517e21502d4820f5f8d5bd0c9345e3e",
+          "docs/research/SCHEDULE_PROTOCOL.md": "67f6d53d97df64118181ae94070b17b72cc816d36bd00b3e3d59ca1cf62406fd",
+          "traincheck/schedule_study.py": "466e9a67bbc521ebdb6dad1e317b4ab7dc70e5af9a1eb62801d2bafc3f9229e6",
+          "traincheck/heldout_datasets.py": "cd298d744f0864b2a9ddb2056498b72f43535543553ccd25663a1a109167c3f1",
+          "traincheck/heldout_workload.py": "a475f0623cb400b615dc2d7cf18f1ceed4068eb31cb2801d082bcb2983467b8c",
+          "docs/scripts/run_schedule_study.py": "91ce59fd3cb2fd2f9f8d14e1b4b6f35860de67bbc94ae92c2f79ef53f53d6fc9",
+          "docs/scripts/analyze_schedule_study.py": "890d9f07768718a776b9ed0fc9a8e7163d4def86b4f663cc237c7bb7340fc84c",
+          "docs/scripts/analyze_public_workload.py": "d8a6665e08561de9aa2475fd24dd101bd82c1998d16c070f1128b68c58fca919",
+          "requirements/study-cpu.txt": "16a336a5f77dc72f80e8a1b534ab0bc49e067470ef38a6127d572352df6fa339"
+        }
+      },
+      "phase": "evaluation",
+      "workload": "wine",
+      "conditions": {
+        "plain": {
+          "schedule": "plain",
+          "pattern": "none",
+          "denominator": 1
+        },
+        "accumulate2": {
+          "schedule": "accumulate2",
+          "pattern": "none",
+          "denominator": 1
+        },
+        "declared_skip4": {
+          "schedule": "declared_skip4",
+          "pattern": "none",
+          "denominator": 1
+        },
+        "full": {
+          "schedule": "plain",
+          "pattern": "periodic",
+          "denominator": 1
+        },
+        "periodic2": {
+          "schedule": "plain",
+          "pattern": "periodic",
+          "denominator": 2
+        },
+        "periodic4": {
+          "schedule": "plain",
+          "pattern": "periodic",
+          "denominator": 4
+        },
+        "periodic8": {
+          "schedule": "plain",
+          "pattern": "periodic",
+          "denominator": 8
+        },
+        "periodic16": {
+          "schedule": "plain",
+          "pattern": "periodic",
+          "denominator": 16
+        },
+        "bernoulli2": {
+          "schedule": "plain",
+          "pattern": "bernoulli",
+          "denominator": 2
+        },
+        "bernoulli4": {
+          "schedule": "plain",
+          "pattern": "bernoulli",
+          "denominator": 4
+        },
+        "bernoulli8": {
+          "schedule": "plain",
+          "pattern": "bernoulli",
+          "denominator": 8
+        },
+        "bernoulli16": {
+          "schedule": "plain",
+          "pattern": "bernoulli",
+          "denominator": 16
+        }
+      },
+      "source_revision": "23bd43a6f273afcd5d98285500debbbedf0a12e3",
+      "config_sha256": "c33c04868b83d40f3cb3ab9d359cde5c8073caf03fd52d6f3395b50656d7f776",
+      "records_sha256": "003ec328a1268cd6ca7a76ef0fbe99edf65acdec4fac37db003f0ab08742b702",
+      "dataset_sha256": {
+        "optdigits.tes": "6ebb3d2fee246a4e99363262ddf8a00a3c41bee6014c373ed9d9216ba7f651b8",
+        "optdigits.tra": "e1b683cc211604fe8fd8c4417e6a69f31380e0c61d4af22e93cc21e9257ffedd",
+        "wine.data": "6be6b1203f3d51df0b553a70e57b8a723cd405683958204f96d23d7cd6aea659"
+      },
+      "record_count": 1920,
+      "failures": 0,
+      "workflow_run_id": "45045778246",
+      "workflow_attempt": "1",
+      "python": "3.11.18",
+      "torch": "2.6.0+cpu",
+      "platform": "Linux-7.0.0-1017-azure-x86_64-with-glibc2.39",
+      "cpu_model": "AMD EPYC 9V45 96-Core Processor",
+      "threads": 1,
+      "train": 106,
+      "validation": 36,
+      "test": 36
+    },
+    {
+      "design": {
+        "status": "frozen",
+        "workloads": [
+          "digits",
+          "wine",
+          "fashion"
+        ],
+        "budgets": {
+          "wall25": {
+            "seconds": 0.025
+          },
+          "fixed64": {
+            "steps": 64
+          }
+        },
+        "development_seeds": [
+          701,
+          740
+        ],
+        "evaluation_seeds": [
+          801,
+          880
+        ],
+        "population_target": 0.05,
+        "denominators": [
+          2,
+          4,
+          8,
+          16
+        ],
+        "patterns": [
+          "periodic",
+          "bernoulli"
+        ],
+        "primary_denominator": 4,
+        "thresholds": {
+          "digits": {
+            "wall25": 0.6358469982679671,
+            "fixed64": 0.878410920404846
+          },
+          "wine": {
+            "wall25": 0.07769650130131128,
+            "fixed64": 0.2177401436405037
+          },
+          "fashion": {
+            "wall25": 0.9811277303084164,
+            "fixed64": 0.7181259163045313
+          }
+        },
+        "development_run": 45045512022,
+        "development_summary_sha256": "d2934350eb2acf2c22824b46d448b85971e35100ac713ed9ae6ae32589921116",
+        "development_records_sha256": {
+          "digits": "34c9775a28b815d8ccd08af0b3c66e0aaa1e14aefcc57e26a5677bf4b7d5cda1",
+          "wine": "f8e8ce0aed43dc82e834a55048b6224973e945e84cce0676f5eb1031c52b3b5e",
+          "fashion": "11c95bfd5b634a419f83420ba3c96f0bab73cdd21cf4d5bd824693ab5585db34"
+        },
+        "frozen_files": {
+          ".github/workflows/optimizer-schedule-study.yml": "db042d5783fefe28ae8910f4201cbbf51517e21502d4820f5f8d5bd0c9345e3e",
+          "docs/research/SCHEDULE_PROTOCOL.md": "67f6d53d97df64118181ae94070b17b72cc816d36bd00b3e3d59ca1cf62406fd",
+          "traincheck/schedule_study.py": "466e9a67bbc521ebdb6dad1e317b4ab7dc70e5af9a1eb62801d2bafc3f9229e6",
+          "traincheck/heldout_datasets.py": "cd298d744f0864b2a9ddb2056498b72f43535543553ccd25663a1a109167c3f1",
+          "traincheck/heldout_workload.py": "a475f0623cb400b615dc2d7cf18f1ceed4068eb31cb2801d082bcb2983467b8c",
+          "docs/scripts/run_schedule_study.py": "91ce59fd3cb2fd2f9f8d14e1b4b6f35860de67bbc94ae92c2f79ef53f53d6fc9",
+          "docs/scripts/analyze_schedule_study.py": "890d9f07768718a776b9ed0fc9a8e7163d4def86b4f663cc237c7bb7340fc84c",
+          "docs/scripts/analyze_public_workload.py": "d8a6665e08561de9aa2475fd24dd101bd82c1998d16c070f1128b68c58fca919",
+          "requirements/study-cpu.txt": "16a336a5f77dc72f80e8a1b534ab0bc49e067470ef38a6127d572352df6fa339"
+        }
+      },
+      "phase": "evaluation",
+      "workload": "fashion",
+      "conditions": {
+        "plain": {
+          "schedule": "plain",
+          "pattern": "none",
+          "denominator": 1
+        },
+        "accumulate2": {
+          "schedule": "accumulate2",
+          "pattern": "none",
+          "denominator": 1
+        },
+        "declared_skip4": {
+          "schedule": "declared_skip4",
+          "pattern": "none",
+          "denominator": 1
+        },
+        "full": {
+          "schedule": "plain",
+          "pattern": "periodic",
+          "denominator": 1
+        },
+        "periodic2": {
+          "schedule": "plain",
+          "pattern": "periodic",
+          "denominator": 2
+        },
+        "periodic4": {
+          "schedule": "plain",
+          "pattern": "periodic",
+          "denominator": 4
+        },
+        "periodic8": {
+          "schedule": "plain",
+          "pattern": "periodic",
+          "denominator": 8
+        },
+        "periodic16": {
+          "schedule": "plain",
+          "pattern": "periodic",
+          "denominator": 16
+        },
+        "bernoulli2": {
+          "schedule": "plain",
+          "pattern": "bernoulli",
+          "denominator": 2
+        },
+        "bernoulli4": {
+          "schedule": "plain",
+          "pattern": "bernoulli",
+          "denominator": 4
+        },
+        "bernoulli8": {
+          "schedule": "plain",
+          "pattern": "bernoulli",
+          "denominator": 8
+        },
+        "bernoulli16": {
+          "schedule": "plain",
+          "pattern": "bernoulli",
+          "denominator": 16
+        }
+      },
+      "source_revision": "23bd43a6f273afcd5d98285500debbbedf0a12e3",
+      "config_sha256": "c33c04868b83d40f3cb3ab9d359cde5c8073caf03fd52d6f3395b50656d7f776",
+      "records_sha256": "c02f3924676101cfe9f3f8ddfe800f09a6a4709fb2c7962d94965b4f8a97fc1b",
+      "dataset_sha256": {
+        "t10k-images-idx3-ubyte.gz": "346e55b948d973a97e58d2351dde16a484bd415d4595297633bb08f03db6a073",
+        "t10k-labels-idx1-ubyte.gz": "67da17c76eaffca5446c3361aaab5c3cd6d1c2608764d35dfb1850b086bf8dd5",
+        "train-images-idx3-ubyte.gz": "3aede38d61863908ad78613f6a32ed271626dd12800ba2636569512369268a84",
+        "train-labels-idx1-ubyte.gz": "a04f17134ac03560a47e3764e11b92fc97de4d1bfaf8ba1a3aa29af54cc90845"
+      },
+      "record_count": 1920,
+      "failures": 0,
+      "workflow_run_id": "45045778246",
+      "workflow_attempt": "1",
+      "python": "3.11.18",
+      "torch": "2.6.0+cpu",
+      "platform": "Linux-7.0.0-1017-azure-x86_64-with-glibc2.39",
+      "cpu_model": "AMD EPYC 7763 64-Core Processor",
+      "threads": 1,
+      "train": 6000,
+      "validation": 200,
+      "test": 1000
+    }
+  ],
+  "analysis_sha256": "890d9f07768718a776b9ed0fc9a8e7163d4def86b4f663cc237c7bb7340fc84c",
+  "paired": [
+    {
+      "workload": "digits",
+      "budget": "wall25",
+      "condition": "periodic4",
+      "pairs": 80,
+      "left_only": 59,
+      "right_only": 0,
+      "left_minus_right": 0.7375,
+      "exact_p": 3.469446951953614e-18,
+      "holm_p": 4.163336342344337e-17
+    },
+    {
+      "workload": "digits",
+      "budget": "wall25",
+      "condition": "bernoulli4",
+      "pairs": 80,
+      "left_only": 51,
+      "right_only": 0,
+      "left_minus_right": 0.6375,
+      "exact_p": 8.881784197001252e-16,
+      "holm_p": 9.769962616701378e-15
+    },
+    {
+      "workload": "digits",
+      "budget": "fixed64",
+      "condition": "periodic4",
+      "pairs": 80,
+      "left_only": 0,
+      "right_only": 0,
+      "left_minus_right": 0.0,
+      "exact_p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "workload": "digits",
+      "budget": "fixed64",
+      "condition": "bernoulli4",
+      "pairs": 80,
+      "left_only": 0,
+      "right_only": 0,
+      "left_minus_right": 0.0,
+      "exact_p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "workload": "wine",
+      "budget": "wall25",
+      "condition": "periodic4",
+      "pairs": 80,
+      "left_only": 0,
+      "right_only": 0,
+      "left_minus_right": 0.0,
+      "exact_p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "workload": "wine",
+      "budget": "wall25",
+      "condition": "bernoulli4",
+      "pairs": 80,
+      "left_only": 0,
+      "right_only": 0,
+      "left_minus_right": 0.0,
+      "exact_p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "workload": "wine",
+      "budget": "fixed64",
+      "condition": "periodic4",
+      "pairs": 80,
+      "left_only": 0,
+      "right_only": 0,
+      "left_minus_right": 0.0,
+      "exact_p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "workload": "wine",
+      "budget": "fixed64",
+      "condition": "bernoulli4",
+      "pairs": 80,
+      "left_only": 0,
+      "right_only": 0,
+      "left_minus_right": 0.0,
+      "exact_p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "workload": "fashion",
+      "budget": "wall25",
+      "condition": "periodic4",
+      "pairs": 80,
+      "left_only": 2,
+      "right_only": 0,
+      "left_minus_right": 0.025,
+      "exact_p": 0.5,
+      "holm_p": 1.0
+    },
+    {
+      "workload": "fashion",
+      "budget": "wall25",
+      "condition": "bernoulli4",
+      "pairs": 80,
+      "left_only": 2,
+      "right_only": 0,
+      "left_minus_right": 0.025,
+      "exact_p": 0.5,
+      "holm_p": 1.0
+    },
+    {
+      "workload": "fashion",
+      "budget": "fixed64",
+      "condition": "periodic4",
+      "pairs": 80,
+      "left_only": 2,
+      "right_only": 0,
+      "left_minus_right": 0.025,
+      "exact_p": 0.5,
+      "holm_p": 1.0
+    },
+    {
+      "workload": "fashion",
+      "budget": "fixed64",
+      "condition": "bernoulli4",
+      "pairs": 80,
+      "left_only": 2,
+      "right_only": 0,
+      "left_minus_right": 0.025,
+      "exact_p": 0.5,
+      "holm_p": 1.0
+    }
+  ]
+}

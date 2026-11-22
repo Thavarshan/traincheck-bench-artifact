@@ -1,0 +1,9 @@
+{
+  "research_source_revision": "debf173c84dfb8a9e692de99e0c0c272aa272da4",
+  "note": "Archived result files retain original run provenance. This public implementation starts with a clean history.",
+  "public_port_changes": [
+    "Omit manuscript, submission documents, document validation, and integrity reports",
+    "Use machine-readable designs, scripts, and workflow files as public source-hash inputs for new runs",
+    "Keep the original archived calibration freezes for historical provenance"
+  ]
+}

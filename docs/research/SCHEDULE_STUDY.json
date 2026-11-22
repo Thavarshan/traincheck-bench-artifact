@@ -1,0 +1,68 @@
+{
+  "status": "frozen",
+  "workloads": [
+    "digits",
+    "wine",
+    "fashion"
+  ],
+  "budgets": {
+    "wall25": {
+      "seconds": 0.025
+    },
+    "fixed64": {
+      "steps": 64
+    }
+  },
+  "development_seeds": [
+    701,
+    740
+  ],
+  "evaluation_seeds": [
+    801,
+    880
+  ],
+  "population_target": 0.05,
+  "denominators": [
+    2,
+    4,
+    8,
+    16
+  ],
+  "patterns": [
+    "periodic",
+    "bernoulli"
+  ],
+  "primary_denominator": 4,
+  "thresholds": {
+    "digits": {
+      "wall25": 0.6358469982679671,
+      "fixed64": 0.878410920404846
+    },
+    "wine": {
+      "wall25": 0.07769650130131128,
+      "fixed64": 0.2177401436405037
+    },
+    "fashion": {
+      "wall25": 0.9811277303084164,
+      "fixed64": 0.7181259163045313
+    }
+  },
+  "development_run": 45045512022,
+  "development_summary_sha256": "d2934350eb2acf2c22824b46d448b85971e35100ac713ed9ae6ae32589921116",
+  "development_records_sha256": {
+    "digits": "34c9775a28b815d8ccd08af0b3c66e0aaa1e14aefcc57e26a5677bf4b7d5cda1",
+    "wine": "f8e8ce0aed43dc82e834a55048b6224973e945e84cce0676f5eb1031c52b3b5e",
+    "fashion": "11c95bfd5b634a419f83420ba3c96f0bab73cdd21cf4d5bd824693ab5585db34"
+  },
+  "frozen_files": {
+    ".github/workflows/optimizer-schedule-study.yml": "db042d5783fefe28ae8910f4201cbbf51517e21502d4820f5f8d5bd0c9345e3e",
+    "docs/research/SCHEDULE_PROTOCOL.md": "67f6d53d97df64118181ae94070b17b72cc816d36bd00b3e3d59ca1cf62406fd",
+    "traincheck/schedule_study.py": "466e9a67bbc521ebdb6dad1e317b4ab7dc70e5af9a1eb62801d2bafc3f9229e6",
+    "traincheck/heldout_datasets.py": "cd298d744f0864b2a9ddb2056498b72f43535543553ccd25663a1a109167c3f1",
+    "traincheck/heldout_workload.py": "a475f0623cb400b615dc2d7cf18f1ceed4068eb31cb2801d082bcb2983467b8c",
+    "docs/scripts/run_schedule_study.py": "91ce59fd3cb2fd2f9f8d14e1b4b6f35860de67bbc94ae92c2f79ef53f53d6fc9",
+    "docs/scripts/analyze_schedule_study.py": "890d9f07768718a776b9ed0fc9a8e7163d4def86b4f663cc237c7bb7340fc84c",
+    "docs/scripts/analyze_public_workload.py": "d8a6665e08561de9aa2475fd24dd101bd82c1998d16c070f1128b68c58fca919",
+    "requirements/study-cpu.txt": "16a336a5f77dc72f80e8a1b534ab0bc49e067470ef38a6127d572352df6fa339"
+  }
+}

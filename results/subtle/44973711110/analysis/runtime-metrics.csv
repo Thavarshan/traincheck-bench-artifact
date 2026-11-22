@@ -1,0 +1,7 @@
+phase,source_file,fault,budget_seconds,n_records,n_successful,n_failed_runs,n_elapsed,elapsed_median_seconds,elapsed_iqr_seconds,n_optimizer_call_counts,optimizer_step_calls_median,n_overshoot_amounts,budget_overshoot_median_ms,budget_overshoot_max_ms,n_over_budget,n_budget_observed,budget_overrun_rate,termination_reasons
+exploratory,44973711110-1.jsonl,healthy,0.025,30,30,0,30,0.025120672999989324,8.646625001063057e-05,30,122.0,30,0.12067299998932274,0.19848400001478556,30,30,1.0,"{""budget_reached"": 30}"
+exploratory,44973711110-1.jsonl,healthy,0.25,30,30,0,30,0.2500779725000086,9.775124998867568e-05,30,1213.5,30,0.07797250000862732,0.1924690000123519,30,30,1.0,"{""budget_reached"": 30}"
+exploratory,44973711110-1.jsonl,intermittent_skip_step,0.025,30,30,0,30,0.025089403500004437,6.155450001443796e-05,30,94.0,30,0.08940350000443548,0.20526000000700012,30,30,1.0,"{""budget_reached"": 30}"
+exploratory,44973711110-1.jsonl,intermittent_skip_step,0.25,30,30,0,30,0.2501018330000022,0.00010757124999827283,30,948.5,30,0.10183300000221607,0.1925039999832734,30,30,1.0,"{""budget_reached"": 30}"
+exploratory,44973711110-1.jsonl,skip_step,0.025,30,30,0,30,0.025082211999986725,8.162249999088544e-05,30,0.0,30,0.08221199998672407,0.16511700000023527,30,30,1.0,"{""budget_reached"": 30}"
+exploratory,44973711110-1.jsonl,skip_step,0.25,30,30,0,30,0.2500919470000156,5.670874999452735e-05,30,0.0,30,0.09194700001557976,0.14768799999842486,30,30,1.0,"{""budget_reached"": 30}"

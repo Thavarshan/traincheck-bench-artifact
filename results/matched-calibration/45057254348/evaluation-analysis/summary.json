@@ -1,0 +1,152 @@
+{
+  "phase": "evaluation",
+  "thresholds": {
+    "digits": {
+      "wall25": 0.8051052440990519,
+      "fixed64": 0.9031966083851242
+    }
+  },
+  "manifests": [
+    {
+      "design": {
+        "status": "frozen",
+        "workloads": [
+          "digits"
+        ],
+        "budgets": {
+          "wall25": {
+            "seconds": 0.025
+          },
+          "fixed64": {
+            "steps": 64
+          }
+        },
+        "development_seeds": [
+          901,
+          940
+        ],
+        "evaluation_seeds": [
+          1001,
+          1080
+        ],
+        "population_target": 0.05,
+        "denominators": [
+          4
+        ],
+        "patterns": [
+          "periodic"
+        ],
+        "primary_denominator": 4,
+        "previous_thresholds": {
+          "wall25": 0.6358469982679671,
+          "fixed64": 0.878410920404846
+        },
+        "mechanism_seeds": [
+          1101,
+          1112
+        ],
+        "thresholds": {
+          "digits": {
+            "wall25": 0.8051052440990519,
+            "fixed64": 0.9031966083851242
+          }
+        },
+        "frozen_files": {
+          "docs/research/MATCHED_PROTOCOL.md": "5dadd36d09373c667b3142667a3ff2549d032cbf34f9206947b1de8c00c20e64",
+          "docs/research/MATCHED_STUDY.json": "81ba93ae53f4e2d312334e3f035ab88c038a1c14d1a1af34849f819b9893009d",
+          "docs/scripts/run_schedule_study.py": "bac97e77693b8ba660cb731b7fc203619ce0210e7087c4d0575c45cee21a4bd3",
+          "docs/scripts/analyze_schedule_study.py": "6a4339501e25471882e592e1b45f559027eb8afaa0fc372cabc0103b09ef8a6c",
+          "docs/scripts/analyze_public_workload.py": "d8a6665e08561de9aa2475fd24dd101bd82c1998d16c070f1128b68c58fca919",
+          "docs/scripts/matched_calibration.py": "5e8e8f0fd6f85cd926a310340db2cb017883429c45d42c017ab179c33c561a94",
+          "docs/scripts/run_scaler_probe.py": "2e09f69cef3209ad716e9d4593655411ec19bb98d669662f561dc40af608115d",
+          "traincheck/scaler_probe.py": "73299c6f23c2c1c37e00fdbff89e1d3efd1fe6a972de2f735328a2637d8c798a",
+          "traincheck/schedule_study.py": "466e9a67bbc521ebdb6dad1e317b4ab7dc70e5af9a1eb62801d2bafc3f9229e6",
+          "traincheck/heldout_workload.py": "a475f0623cb400b615dc2d7cf18f1ceed4068eb31cb2801d082bcb2983467b8c",
+          "traincheck/heldout_datasets.py": "cd298d744f0864b2a9ddb2056498b72f43535543553ccd25663a1a109167c3f1",
+          "requirements/study-cpu.txt": "16a336a5f77dc72f80e8a1b534ab0bc49e067470ef38a6127d572352df6fa339",
+          ".github/workflows/matched-calibration.yml": "a1b136e2c922ae40d5932dd48a895affc09bd25e376120e21f7fa4fe4a1cae9c"
+        },
+        "development_records_sha256": "01f7f68472d0e784523bd4107993586e0065f5777d28bf5ed0146960f3238436",
+        "development_summary_sha256": "db3b2d56afdc32f4b9da6e738e1f70c7d595e0463f3f9dc3454f7a03276fad9e"
+      },
+      "phase": "evaluation",
+      "workload": "digits",
+      "conditions": {
+        "plain": {
+          "schedule": "plain",
+          "pattern": "none",
+          "denominator": 1
+        },
+        "accumulate2": {
+          "schedule": "accumulate2",
+          "pattern": "none",
+          "denominator": 1
+        },
+        "declared_skip4": {
+          "schedule": "declared_skip4",
+          "pattern": "none",
+          "denominator": 1
+        },
+        "full": {
+          "schedule": "plain",
+          "pattern": "periodic",
+          "denominator": 1
+        },
+        "periodic4": {
+          "schedule": "plain",
+          "pattern": "periodic",
+          "denominator": 4
+        }
+      },
+      "source_revision": "92154b3817582da0ccf03cf695dbfed38c753f76",
+      "config_sha256": "720231d28744218048d594ac438f189838901cc1089badb1a89b5da3e4532a79",
+      "records_sha256": "358fd26e4b1fb3ca20b9d0a983e0dd6c23562d54d902246440def88c9c8deb10",
+      "dataset_sha256": {
+        "optdigits.tes": "6ebb3d2fee246a4e99363262ddf8a00a3c41bee6014c373ed9d9216ba7f651b8",
+        "optdigits.tra": "e1b683cc211604fe8fd8c4417e6a69f31380e0c61d4af22e93cc21e9257ffedd",
+        "wine.data": "6be6b1203f3d51df0b553a70e57b8a723cd405683958204f96d23d7cd6aea659"
+      },
+      "record_count": 800,
+      "failures": 0,
+      "workflow_run_id": "45057254348",
+      "workflow_attempt": "1",
+      "python": "3.11.18",
+      "torch": "2.6.0+cpu",
+      "platform": "Linux-7.0.0-1017-azure-x86_64-with-glibc2.39",
+      "cpu_model": "AMD EPYC 9V74 80-Core Processor",
+      "threads": 1,
+      "train": 3060,
+      "validation": 763,
+      "test": 1797,
+      "runner_boot_sha256": "6ac7346b24a6e891b1c2653e417a57196a945844dcd63dcef460f92e9278c392",
+      "cpu_affinity": [
+        0
+      ]
+    }
+  ],
+  "analysis_sha256": "6a4339501e25471882e592e1b45f559027eb8afaa0fc372cabc0103b09ef8a6c",
+  "paired": [
+    {
+      "workload": "digits",
+      "budget": "wall25",
+      "condition": "periodic4",
+      "pairs": 80,
+      "left_only": 0,
+      "right_only": 0,
+      "left_minus_right": 0.0,
+      "exact_p": 1.0,
+      "holm_p": 1.0
+    },
+    {
+      "workload": "digits",
+      "budget": "fixed64",
+      "condition": "periodic4",
+      "pairs": 80,
+      "left_only": 0,
+      "right_only": 0,
+      "left_minus_right": 0.0,
+      "exact_p": 1.0,
+      "holm_p": 1.0
+    }
+  ]
+}

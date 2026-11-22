@@ -1,0 +1,10 @@
+study,phase,schedule,cpu,study_revision,count,median_minibatches,median_optimizer_calls
+original,evaluation,plain,AMD EPYC 9V45 96-Core Processor,d3963ec8dac7b090cbd630f4f3dde731eab7cf7c,80,109.0,109.0
+cross_host,development,plain,Intel(R) Xeon(R) 6975P-C,c15f99f601364074c86a14c2a7681053f695beba,40,112.0,112.0
+cross_host,development,accumulate2,Intel(R) Xeon(R) 6975P-C,c15f99f601364074c86a14c2a7681053f695beba,40,123.0,61.0
+cross_host,evaluation,plain,AMD EPYC 7763 64-Core Processor,23bd43a6f273afcd5d98285500debbbedf0a12e3,80,54.0,54.0
+cross_host,evaluation,accumulate2,AMD EPYC 7763 64-Core Processor,23bd43a6f273afcd5d98285500debbbedf0a12e3,80,59.0,29.0
+matched_runner,development,plain,AMD EPYC 9V74 80-Core Processor,92154b3817582da0ccf03cf695dbfed38c753f76,40,80.0,80.0
+matched_runner,development,accumulate2,AMD EPYC 9V74 80-Core Processor,92154b3817582da0ccf03cf695dbfed38c753f76,40,87.0,43.0
+matched_runner,evaluation,plain,AMD EPYC 9V74 80-Core Processor,92154b3817582da0ccf03cf695dbfed38c753f76,80,80.0,80.0
+matched_runner,evaluation,accumulate2,AMD EPYC 9V74 80-Core Processor,92154b3817582da0ccf03cf695dbfed38c753f76,80,88.0,44.0

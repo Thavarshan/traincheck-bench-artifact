@@ -1,0 +1,47 @@
+{
+  "cases": {
+    "finite": {
+      "attempts": 12,
+      "failed": 0,
+      "naive_alarm": 0,
+      "optimizer_alarm": 0,
+      "scheduler_alarm": 0,
+      "warned": 0,
+      "initial_lr_changed": 12
+    },
+    "overflow": {
+      "attempts": 12,
+      "failed": 0,
+      "naive_alarm": 12,
+      "optimizer_alarm": 0,
+      "scheduler_alarm": 0,
+      "warned": 0,
+      "initial_lr_changed": 0
+    },
+    "omission": {
+      "attempts": 12,
+      "failed": 0,
+      "naive_alarm": 12,
+      "optimizer_alarm": 12,
+      "scheduler_alarm": 0,
+      "warned": 0,
+      "initial_lr_changed": 0
+    },
+    "ungated_scheduler": {
+      "attempts": 12,
+      "failed": 0,
+      "naive_alarm": 12,
+      "optimizer_alarm": 0,
+      "scheduler_alarm": 12,
+      "warned": 12,
+      "initial_lr_changed": 12
+    }
+  },
+  "raw_sha256": "9a504878e791901f41a3e93cd382e430d2b869732d92335fac66a91706c63b11",
+  "configuration_sha256": "720231d28744218048d594ac438f189838901cc1089badb1a89b5da3e4532a79",
+  "run_id": "45057254348",
+  "source": "92154b3817582da0ccf03cf695dbfed38c753f76",
+  "python": "3.11.18",
+  "torch": "2.6.0+cpu",
+  "host": "Linux-7.0.0-1017-azure-x86_64-with-glibc2.39"
+}

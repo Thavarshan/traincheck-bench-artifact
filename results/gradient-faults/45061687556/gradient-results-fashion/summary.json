@@ -1,0 +1,94 @@
+{
+  "host": {
+    "source_revision": "cd26afbeff3ea4e7866fb98e18be373f4ca2f040",
+    "workflow_run_id": "45061687556",
+    "workflow_attempt": "1",
+    "cpu_model": "Intel(R) Xeon(R) 6975P-C",
+    "affinity": [
+      0
+    ],
+    "boot": "b9925f7912eb4ce322b462c83cdf7b075c9d8b7aad88bfa3ecae3c7bb7a9cc99",
+    "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+    "python": "3.11.18",
+    "torch": "2.6.0+cpu",
+    "dataset_sha256": {
+      "t10k-images-idx3-ubyte.gz": "346e55b948d973a97e58d2351dde16a484bd415d4595297633bb08f03db6a073",
+      "t10k-labels-idx1-ubyte.gz": "67da17c76eaffca5446c3361aaab5c3cd6d1c2608764d35dfb1850b086bf8dd5",
+      "train-images-idx3-ubyte.gz": "3aede38d61863908ad78613f6a32ed271626dd12800ba2636569512369268a84",
+      "train-labels-idx1-ubyte.gz": "a04f17134ac03560a47e3764e11b92fc97de4d1bfaf8ba1a3aa29af54cc90845"
+    }
+  },
+  "records_sha256": "76611469b65342998e661d495a672a4e88a777f410e0c22a6cd2fe614d39b3f5",
+  "outcomes": {
+    "plain": {
+      "n": 40,
+      "loss_alarms": 1,
+      "loss_wilson": [
+        0.0044268315026814095,
+        0.1288136896347409
+      ],
+      "nonfinite_scores": 0,
+      "call_alarms": 0
+    },
+    "missing_reset": {
+      "n": 40,
+      "loss_alarms": 27,
+      "loss_wilson": [
+        0.5201774618987768,
+        0.799154977682173
+      ],
+      "nonfinite_scores": 0,
+      "call_alarms": 0
+    },
+    "accumulate2": {
+      "n": 40,
+      "loss_alarms": 5,
+      "loss_wilson": [
+        0.05459500250945401,
+        0.261121198388511
+      ],
+      "nonfinite_scores": 0,
+      "call_alarms": 0
+    },
+    "unscaled": {
+      "n": 40,
+      "loss_alarms": 7,
+      "loss_wilson": [
+        0.0874541374603592,
+        0.31949990331787714
+      ],
+      "nonfinite_scores": 0,
+      "call_alarms": 0
+    }
+  },
+  "contrasts": {
+    "missing_reset": {
+      "heldout_accuracy": {
+        "n": 40,
+        "median": 0.1245,
+        "low": 0.06850000000000006,
+        "high": 0.23100000000000004
+      },
+      "heldout_loss": {
+        "n": 40,
+        "median": -0.6605959236621857,
+        "low": -0.8228148221969604,
+        "high": -0.32863396406173706
+      }
+    },
+    "unscaled": {
+      "heldout_accuracy": {
+        "n": 40,
+        "median": -0.01799999999999996,
+        "low": -0.030000000000000027,
+        "high": -0.006500000000000006
+      },
+      "heldout_loss": {
+        "n": 40,
+        "median": 0.0751691460609436,
+        "low": -0.011511802673339844,
+        "high": 0.140358567237854
+      }
+    }
+  }
+}

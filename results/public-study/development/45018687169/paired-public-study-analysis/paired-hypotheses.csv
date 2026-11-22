@@ -1,0 +1,9 @@
+hypothesis,workload,budget_seconds,pairs,left_only,right_only,left_minus_right,exact_p,holm_p
+H1_partial_minus_full,digits,0.025,10,0,0,0.0,1.0,1.0
+H2_seven_minus_augmented,digits,0.025,10,0,0,0.0,1.0,1.0
+H1_partial_minus_full,digits,0.25,10,0,10,-1.0,0.001953125,0.015625
+H2_seven_minus_augmented,digits,0.25,10,0,10,-1.0,0.001953125,0.015625
+H1_partial_minus_full,wine,0.025,10,0,10,-1.0,0.001953125,0.015625
+H2_seven_minus_augmented,wine,0.025,10,0,10,-1.0,0.001953125,0.015625
+H1_partial_minus_full,wine,0.25,10,0,10,-1.0,0.001953125,0.015625
+H2_seven_minus_augmented,wine,0.25,10,0,10,-1.0,0.001953125,0.015625

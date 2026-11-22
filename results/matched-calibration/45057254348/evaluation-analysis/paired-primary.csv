@@ -1,0 +1,3 @@
+workload,budget,condition,pairs,left_only,right_only,left_minus_right,exact_p,holm_p
+digits,wall25,periodic4,80,0,0,0.0,1.0,1.0
+digits,fixed64,periodic4,80,0,0,0.0,1.0,1.0

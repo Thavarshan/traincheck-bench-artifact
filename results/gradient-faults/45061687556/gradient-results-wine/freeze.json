@@ -1,0 +1,40 @@
+{
+  "host": {
+    "source_revision": "cd26afbeff3ea4e7866fb98e18be373f4ca2f040",
+    "workflow_run_id": "45061687556",
+    "workflow_attempt": "1",
+    "cpu_model": "Intel(R) Xeon(R) 6975P-C",
+    "affinity": [
+      0
+    ],
+    "boot": "c147d48e44b29e9dedfff88bcd875e8fb15fd6b25d9cf408be1ef40c7d8f118b",
+    "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+    "python": "3.11.18",
+    "torch": "2.6.0+cpu",
+    "dataset_sha256": {
+      "optdigits.tes": "6ebb3d2fee246a4e99363262ddf8a00a3c41bee6014c373ed9d9216ba7f651b8",
+      "optdigits.tra": "e1b683cc211604fe8fd8c4417e6a69f31380e0c61d4af22e93cc21e9257ffedd",
+      "wine.data": "6be6b1203f3d51df0b553a70e57b8a723cd405683958204f96d23d7cd6aea659"
+    }
+  },
+  "workload": "wine",
+  "cutoffs": {
+    "plain": 0.10713217498883931,
+    "accumulate2": 0.2383838359386416
+  },
+  "development_sha256": "e95c85c6b8603eb3101c7438e34c31f58a6df4d5df57e1bd1cdec09d8de1a9a5",
+  "source_sha256": {
+    "docs/research/GRADIENT_FAULT_STUDY.json": "08e82dd70f1b815f83d0cd823a8ce0c991f18ad1835553ddb1fb5d670725f48e",
+    "docs/research/GRADIENT_FAULT_PROTOCOL.md": "cc3a1849fe6b0de6f9f935799ce9a1fdd7af8bebc6b4cebe0188f40e949f6d98",
+    "docs/research/UPDATE_CONTROL.json": "a570595af782bb30033010bbad1fec3cda2785b0daffe42e87d099251e0c4b88",
+    "docs/scripts/analyze_schedule_study.py": "6a4339501e25471882e592e1b45f559027eb8afaa0fc372cabc0103b09ef8a6c",
+    "docs/scripts/analyze_public_workload.py": "d8a6665e08561de9aa2475fd24dd101bd82c1998d16c070f1128b68c58fca919",
+    "docs/scripts/run_update_control.py": "c993840874517cc4931f2677315d73f288a26b2ed015e0c9040b8a04f67cc2e6",
+    "traincheck/schedule_study.py": "61ef66cbc6d805ad6151727df260a55c2c4a35eb7a5221e2fb4f2cb7cb83a635",
+    "traincheck/heldout_workload.py": "a475f0623cb400b615dc2d7cf18f1ceed4068eb31cb2801d082bcb2983467b8c",
+    "traincheck/heldout_datasets.py": "cd298d744f0864b2a9ddb2056498b72f43535543553ccd25663a1a109167c3f1",
+    "requirements/study-cpu.txt": "16a336a5f77dc72f80e8a1b534ab0bc49e067470ef38a6127d572352df6fa339",
+    ".github/workflows/gradient-faults.yml": "6f9ac33b814321bfcaadb424d68ac09ab705690ffe143d89b075dfdcd843b049",
+    "docs/scripts/run_gradient_faults.py": "3461b1f30f6f2ae2f56d157b73cd8b605b67030021249e31842026ef2e78e80c"
+  }
+}

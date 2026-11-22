@@ -1,0 +1,9 @@
+hypothesis,workload,budget_seconds,pairs,left_only,right_only,left_minus_right,exact_p,holm_p
+H1_partial_minus_full_alarm,digits,0.025,80,0,0,0.0,1.0,1.0
+H2_partial_accuracy_lower_vs_higher,digits,0.025,80,79,1,0.975,1.3400325923359048e-22,6.700162961679524e-22
+H1_partial_minus_full_alarm,digits,0.25,80,0,74,-0.925,1.0587911840678754e-22,6.352747104407253e-22
+H2_partial_accuracy_lower_vs_higher,digits,0.25,80,57,19,0.475,1.4836899336372363e-05,5.934759734548945e-05
+H1_partial_minus_full_alarm,wine,0.025,80,0,80,-1.0,1.6543612251060553e-24,1.3234889800848443e-23
+H2_partial_accuracy_lower_vs_higher,wine,0.025,80,5,18,-0.1625,0.010622024536132812,0.03186607360839844
+H1_partial_minus_full_alarm,wine,0.25,80,0,80,-1.0,1.6543612251060553e-24,1.3234889800848443e-23
+H2_partial_accuracy_lower_vs_higher,wine,0.25,80,8,8,0.0,1.0,1.0

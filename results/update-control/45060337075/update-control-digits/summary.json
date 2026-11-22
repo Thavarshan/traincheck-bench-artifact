@@ -1,0 +1,63 @@
+{
+  "median_heldout_accuracy": {
+    "plain64": 0.6861435726210351,
+    "quarter64": 0.5851419031719532,
+    "plain48": 0.5767946577629383
+  },
+  "accuracy_contrasts": {
+    "plain64-quarter64": {
+      "n": 40,
+      "median_pp": 10.434056761268778,
+      "low_pp": 9.265442404006679,
+      "high_pp": 12.79910962715638
+    },
+    "plain64-plain48": {
+      "n": 40,
+      "median_pp": 11.101836393989984,
+      "low_pp": 8.736783528102393,
+      "high_pp": 13.411240957150806
+    },
+    "plain48-quarter64": {
+      "n": 40,
+      "median_pp": 0.19476905954368684,
+      "low_pp": -0.9181969949916546,
+      "high_pp": 0.9460211463550389
+    }
+  },
+  "harness_timing": {
+    "wall25": {
+      "steps": {
+        "original": 43.0,
+        "schedule": 53.0,
+        "original_minus_schedule": -10.0
+      },
+      "actual_calls": {
+        "original": 43.0,
+        "schedule": 53.0,
+        "original_minus_schedule": -10.0
+      },
+      "loop_wall_seconds": {
+        "original": 0.02539633949999498,
+        "schedule": 0.02525901849999812,
+        "original_minus_schedule": 0.0001928099999979338
+      }
+    },
+    "fixed64": {
+      "steps": {
+        "original": 64.0,
+        "schedule": 64.0,
+        "original_minus_schedule": 0.0
+      },
+      "actual_calls": {
+        "original": 64.0,
+        "schedule": 64.0,
+        "original_minus_schedule": 0.0
+      },
+      "loop_wall_seconds": {
+        "original": 0.037978067500002766,
+        "schedule": 0.030339147499997665,
+        "original_minus_schedule": 0.007686366000001499
+      }
+    }
+  }
+}

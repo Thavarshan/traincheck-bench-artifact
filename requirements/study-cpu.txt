@@ -1,0 +1,2 @@
+# Frozen CPU wheel used by hosted study workflows. Python is pinned in the workflow.
+torch==2.6.0+cpu

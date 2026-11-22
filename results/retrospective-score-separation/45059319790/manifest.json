@@ -1,0 +1,28 @@
+{
+  "status": "retrospective",
+  "bootstrap_samples": 4000,
+  "bootstrap_seed": 821453,
+  "source_revision": "6ba8e1bc98ce1cf12e5c46c8b6ff778e5425baa6",
+  "workflow_run_id": "45059319790",
+  "input_sha256": {
+    "results/public-study/confirmatory/45018868091/public-workload-digits/manifest.json": "332ce2a17fb7ab5376d4f20f25ff0953d79989d42ea5abcc1ff19bf087c23b9f",
+    "results/public-study/confirmatory/45018868091/public-workload-digits/records.jsonl": "678fdd4fc19bf4f37010ef8b4c58cf69d14d6f68978d1bf4a8224a869117a6d5",
+    "results/schedule-study/development/45045512022/schedule-digits/manifest.json": "3265d1c765f620e45d9aa8aee7850867aa70c73a363c70230d735e3d08537027",
+    "results/schedule-study/development/45045512022/schedule-digits/records.jsonl": "34c9775a28b815d8ccd08af0b3c66e0aaa1e14aefcc57e26a5677bf4b7d5cda1",
+    "results/schedule-study/evaluation/45045778246/schedule-digits/manifest.json": "0edad2683169e69063726b5dbe69d32fc957c32e7ecf653d549b4e23d752d191",
+    "results/schedule-study/evaluation/45045778246/schedule-digits/records.jsonl": "1777cbb8a0f7fa220b9980653d65e34d071cb5e8b65616d7ce83ccff1d03d2e1",
+    "results/schedule-study/development/45045512022/schedule-wine/manifest.json": "47587365611206d313f8b4da2aac4093046928093ab3fd93545b1cc34c090c7b",
+    "results/schedule-study/development/45045512022/schedule-wine/records.jsonl": "f8e8ce0aed43dc82e834a55048b6224973e945e84cce0676f5eb1031c52b3b5e",
+    "results/schedule-study/evaluation/45045778246/schedule-wine/manifest.json": "006fd19621fa3e4a67b53063e7bcf41dd8f7073c05c21f56900c829c2c51e8dc",
+    "results/schedule-study/evaluation/45045778246/schedule-wine/records.jsonl": "003ec328a1268cd6ca7a76ef0fbe99edf65acdec4fac37db003f0ab08742b702",
+    "results/schedule-study/development/45045512022/schedule-fashion/manifest.json": "6f34f9069244b8fae9c51919f50cba4ded8d6e1db77a59b0e082391b7eb2a19d",
+    "results/schedule-study/development/45045512022/schedule-fashion/records.jsonl": "11c95bfd5b634a419f83420ba3c96f0bab73cdd21cf4d5bd824693ab5585db34",
+    "results/schedule-study/evaluation/45045778246/schedule-fashion/manifest.json": "487ac9077f89ed01f0a40bbe59e2a8cec17e252aafef140d929f8ebe3319f246",
+    "results/schedule-study/evaluation/45045778246/schedule-fashion/records.jsonl": "c02f3924676101cfe9f3f8ddfe800f09a6a4709fb2c7962d94965b4f8a97fc1b",
+    "results/matched-calibration/45057254348/development/schedule-digits/manifest.json": "e7e0215a0a91e20969531a2ba0bdbfc70db278659190aa89ab46672a64259718",
+    "results/matched-calibration/45057254348/development/schedule-digits/records.jsonl": "01f7f68472d0e784523bd4107993586e0065f5777d28bf5ed0146960f3238436",
+    "results/matched-calibration/45057254348/evaluation/schedule-digits/manifest.json": "83478cffd469fb2a7f670534a5613159eeef543884496bb844e487decb504558",
+    "results/matched-calibration/45057254348/evaluation/schedule-digits/records.jsonl": "358fd26e4b1fb3ca20b9d0a983e0dd6c23562d54d902246440def88c9c8deb10"
+  },
+  "analysis_sha256": "5ab7695438ff7d7f4f3a26408c598b8935cc8eb157a2634a4ac46017ae2b4612"
+}

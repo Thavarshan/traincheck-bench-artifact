@@ -1,0 +1,167 @@
+{
+  "status": "retrospective",
+  "resplits": 2000,
+  "random_seed": 24583,
+  "source_revision": "322b85e7fde74725bc0609f13de2a2872496e33f",
+  "run_id": "45061761321",
+  "calibration_seeds_per_split": 40,
+  "nominal_alarm_target": 0.05,
+  "exchangeable_continuous_rank_expectation": 0.04878048780487805,
+  "input_sha256": {
+    "results/matched-calibration/45057254348/development/schedule-digits/manifest.json": "e7e0215a0a91e20969531a2ba0bdbfc70db278659190aa89ab46672a64259718",
+    "results/matched-calibration/45057254348/development/schedule-digits/records.jsonl": "01f7f68472d0e784523bd4107993586e0065f5777d28bf5ed0146960f3238436",
+    "results/matched-calibration/45057254348/evaluation/schedule-digits/manifest.json": "83478cffd469fb2a7f670534a5613159eeef543884496bb844e487decb504558",
+    "results/matched-calibration/45057254348/evaluation/schedule-digits/records.jsonl": "358fd26e4b1fb3ca20b9d0a983e0dd6c23562d54d902246440def88c9c8deb10"
+  },
+  "script_sha256": "3733fa3e430edd575c56cc324587b24dae7c9b89eab6de43dcb206fec9ae267c",
+  "results": {
+    "wall25": {
+      "plain": {
+        "cutoff": {
+          "mean": 0.4525763682282476,
+          "median": 0.4482285563410209,
+          "low": 0.4201937501929057,
+          "high": 0.5118417338512017
+        },
+        "rate": {
+          "mean": 0.05023125,
+          "median": 0.0375,
+          "low": 0.0,
+          "high": 0.15
+        },
+        "denominators": [
+          80,
+          80
+        ]
+      },
+      "accumulate2": {
+        "cutoff": {
+          "mean": 0.7987554861537851,
+          "median": 0.7917852966584171,
+          "low": 0.7658709894456831,
+          "high": 0.8375834462153348
+        },
+        "rate": {
+          "mean": 0.04831875,
+          "median": 0.0375,
+          "low": 0.0,
+          "high": 0.15
+        },
+        "denominators": [
+          80,
+          80
+        ]
+      },
+      "declared_skip4": {
+        "cutoff": {
+          "mean": 0.6070665561388505,
+          "median": 0.6049210151205583,
+          "low": 0.55971874439706,
+          "high": 0.6577575540185591
+        },
+        "rate": {
+          "mean": 0.049175,
+          "median": 0.0375,
+          "low": 0.0,
+          "high": 0.15
+        },
+        "denominators": [
+          80,
+          80
+        ]
+      },
+      "periodic4": {
+        "cutoff": {
+          "mean": 0.4525763682282476,
+          "median": 0.4482285563410209,
+          "low": 0.4201937501929057,
+          "high": 0.5118417338512017
+        },
+        "rate": {
+          "mean": 0.833917907498416,
+          "median": 0.8909090909090909,
+          "low": 0.4705882352941176,
+          "high": 0.9622641509433963
+        },
+        "denominators": [
+          46,
+          62
+        ]
+      }
+    },
+    "fixed64": {
+      "plain": {
+        "cutoff": {
+          "mean": 0.5861438957734123,
+          "median": 0.5784027518320933,
+          "low": 0.5406192959515298,
+          "high": 0.6478754888107182
+        },
+        "rate": {
+          "mean": 0.049425000000000004,
+          "median": 0.0375,
+          "low": 0.0,
+          "high": 0.15
+        },
+        "denominators": [
+          80,
+          80
+        ]
+      },
+      "accumulate2": {
+        "cutoff": {
+          "mean": 0.8947396983555389,
+          "median": 0.8937705022255725,
+          "low": 0.8645850095774346,
+          "high": 0.9123785122778582
+        },
+        "rate": {
+          "mean": 0.04694375,
+          "median": 0.0375,
+          "low": 0.0,
+          "high": 0.15
+        },
+        "denominators": [
+          80,
+          80
+        ]
+      },
+      "declared_skip4": {
+        "cutoff": {
+          "mean": 0.7464808124717022,
+          "median": 0.7392775716094054,
+          "low": 0.7159704277051504,
+          "high": 0.7868682151337769
+        },
+        "rate": {
+          "mean": 0.0478,
+          "median": 0.0375,
+          "low": 0.0,
+          "high": 0.1375
+        },
+        "denominators": [
+          80,
+          80
+        ]
+      },
+      "periodic4": {
+        "cutoff": {
+          "mean": 0.5861438957734123,
+          "median": 0.5784027518320933,
+          "low": 0.5406192959515298,
+          "high": 0.6478754888107182
+        },
+        "rate": {
+          "mean": 0.8786499360948768,
+          "median": 0.9444444444444444,
+          "low": 0.5293840177580467,
+          "high": 1.0
+        },
+        "denominators": [
+          46,
+          62
+        ]
+      }
+    }
+  }
+}

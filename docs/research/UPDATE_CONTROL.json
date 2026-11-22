@@ -1,0 +1,18 @@
+{
+  "status": "frozen",
+  "workloads": ["digits", "wine", "fashion"],
+  "control_seeds": [1201, 1240],
+  "conditions": {
+    "plain64": {"schedule": "plain", "pattern": "none", "denominator": 1, "steps": 64, "calls": 64},
+    "quarter64": {"schedule": "plain", "pattern": "periodic", "denominator": 4, "steps": 64, "calls": 48},
+    "plain48": {"schedule": "plain", "pattern": "none", "denominator": 1, "steps": 48, "calls": 48}
+  },
+  "harness_seeds": [1301, 1316],
+  "harness_warmup_seeds": [1299, 1300],
+  "harness_exposures": {
+    "wall25": {"seconds": 0.025, "max_steps": 10000},
+    "fixed64": {"seconds": 5.0, "max_steps": 64}
+  },
+  "bootstrap_seed": 23677,
+  "bootstrap_resamples": 4000
+}

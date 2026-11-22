@@ -1,0 +1,28 @@
+{
+  "median_heldout_accuracy": {
+    "plain64": 0.9722222222222222,
+    "quarter64": 0.9722222222222222,
+    "plain48": 0.9722222222222222
+  },
+  "accuracy_contrasts": {
+    "plain64-quarter64": {
+      "n": 40,
+      "median_pp": 0.0,
+      "low_pp": 0.0,
+      "high_pp": 0.0
+    },
+    "plain64-plain48": {
+      "n": 40,
+      "median_pp": 0.0,
+      "low_pp": 0.0,
+      "high_pp": 0.0
+    },
+    "plain48-quarter64": {
+      "n": 40,
+      "median_pp": 0.0,
+      "low_pp": 0.0,
+      "high_pp": 0.0
+    }
+  },
+  "harness_timing": {}
+}

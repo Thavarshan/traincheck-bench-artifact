@@ -1,0 +1,46 @@
+{
+  "status": "frozen",
+  "workloads": [
+    "digits",
+    "wine"
+  ],
+  "faults": [
+    "healthy",
+    "skip_step",
+    "intermittent_skip_step",
+    "detached_gradients",
+    "wrong_labels",
+    "train_eval_mode",
+    "preprocessing_mismatch"
+  ],
+  "budgets_seconds": [
+    0.025,
+    0.25
+  ],
+  "development_seed_range": [
+    501,
+    510
+  ],
+  "confirmatory_seed_range": [
+    601,
+    680
+  ],
+  "order_seed_offset": 56013,
+  "max_steps": 10000,
+  "data_sha256": {
+    "optdigits.tra": "e1b683cc211604fe8fd8c4417e6a69f31380e0c61d4af22e93cc21e9257ffedd",
+    "optdigits.tes": "6ebb3d2fee246a4e99363262ddf8a00a3c41bee6014c373ed9d9216ba7f651b8",
+    "wine.data": "6be6b1203f3d51df0b553a70e57b8a723cd405683958204f96d23d7cd6aea659"
+  },
+  "frozen_files": {
+    ".github/workflows/public-workload-study.yml": "b481d723e8913dc654c0d26d3295995b4328ed4f8a5cfd27a21d7fbc317d9de4",
+    "docs/research/PUBLIC_WORKLOAD_PROTOCOL.md": "1a31b5ffd82fe16908b9d757d1d29308ff2207d17a4dd83085abe345f3bf11cb",
+    "docs/research/DATASETS.md": "f3e5a22eb7ebb35699e0d037374a7ab89fd7da025c5aa143794ba3c40afa3b04",
+    "docs/scripts/run_public_workload.py": "af2b35fadc5f6ab1cbea1db7522b0b268529220c833253e54febae25412d8d1b",
+    "docs/scripts/analyze_public_workload.py": "d8a6665e08561de9aa2475fd24dd101bd82c1998d16c070f1128b68c58fca919",
+    "requirements/study-cpu.txt": "16a336a5f77dc72f80e8a1b534ab0bc49e067470ef38a6127d572352df6fa339",
+    "traincheck/heldout_datasets.py": "cd298d744f0864b2a9ddb2056498b72f43535543553ccd25663a1a109167c3f1",
+    "traincheck/heldout_workload.py": "a475f0623cb400b615dc2d7cf18f1ceed4068eb31cb2801d082bcb2983467b8c",
+    "traincheck/experiment.py": "d6f4e6299589706f815635399a631f400eba3927accd70f777b06d10982b681b"
+  }
+}

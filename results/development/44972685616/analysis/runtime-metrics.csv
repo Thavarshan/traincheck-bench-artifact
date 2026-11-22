@@ -1,0 +1,13 @@
+phase,source_file,fault,budget_seconds,n_records,n_successful,n_failed_runs,n_elapsed,elapsed_median_seconds,elapsed_iqr_seconds,n_over_budget,n_budget_observed,budget_overrun_rate,termination_reasons
+exploratory,44972685616-1.jsonl,detached_gradients,0.25,30,30,0,30,0.25011952749991906,9.717774997852757e-05,30,30,1.0,"{""budget_reached"": 30}"
+exploratory,44972685616-1.jsonl,detached_gradients,1.0,30,30,0,30,1.000169435000089,0.00013469400016674626,30,30,1.0,"{""budget_reached"": 30}"
+exploratory,44972685616-1.jsonl,healthy,0.25,30,30,0,30,0.2502695485000004,0.00027328375028901064,30,30,1.0,"{""budget_reached"": 30}"
+exploratory,44972685616-1.jsonl,healthy,1.0,30,30,0,30,1.0002082655000777,0.0002812062498378509,30,30,1.0,"{""budget_reached"": 30}"
+exploratory,44972685616-1.jsonl,preprocessing_mismatch,0.25,30,30,0,30,0.2501651165000567,0.00023319174999869574,30,30,1.0,"{""budget_reached"": 30}"
+exploratory,44972685616-1.jsonl,preprocessing_mismatch,1.0,30,30,0,30,1.000217363000047,0.00016951999998582323,30,30,1.0,"{""budget_reached"": 30}"
+exploratory,44972685616-1.jsonl,skip_step,0.25,30,30,0,30,0.25009613999998237,0.00021988525008964643,30,30,1.0,"{""budget_reached"": 30}"
+exploratory,44972685616-1.jsonl,skip_step,1.0,30,30,0,30,1.0001929954999014,0.0002605404998234917,30,30,1.0,"{""budget_reached"": 30}"
+exploratory,44972685616-1.jsonl,train_eval_mode,0.25,30,30,0,30,0.25025616100003845,0.0002207987500355557,30,30,1.0,"{""budget_reached"": 30}"
+exploratory,44972685616-1.jsonl,train_eval_mode,1.0,30,30,0,30,1.000212632499938,0.00016494974994429867,30,30,1.0,"{""budget_reached"": 30}"
+exploratory,44972685616-1.jsonl,wrong_labels,0.25,30,30,0,30,0.25019901850009774,0.00020669274994133957,30,30,1.0,"{""budget_reached"": 30}"
+exploratory,44972685616-1.jsonl,wrong_labels,1.0,30,30,0,30,1.0001752680001346,0.00018451275002462353,30,30,1.0,"{""budget_reached"": 30}"

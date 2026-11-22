@@ -1,0 +1,13 @@
+{
+  "status": "development",
+  "workloads": ["digits"],
+  "budgets": {"wall25": {"seconds": 0.025}, "fixed64": {"steps": 64}},
+  "development_seeds": [901, 940],
+  "evaluation_seeds": [1001, 1080],
+  "population_target": 0.05,
+  "denominators": [4],
+  "patterns": ["periodic"],
+  "primary_denominator": 4,
+  "previous_thresholds": {"wall25": 0.6358469982679671, "fixed64": 0.878410920404846},
+  "mechanism_seeds": [1101, 1112]
+}

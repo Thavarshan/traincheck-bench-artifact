@@ -1,0 +1,13 @@
+workload,budget,condition,pairs,left_only,right_only,left_minus_right,exact_p,holm_p
+digits,wall25,periodic4,80,59,0,0.7375,3.469446951953614e-18,4.163336342344337e-17
+digits,wall25,bernoulli4,80,51,0,0.6375,8.881784197001252e-16,9.769962616701378e-15
+digits,fixed64,periodic4,80,0,0,0.0,1.0,1.0
+digits,fixed64,bernoulli4,80,0,0,0.0,1.0,1.0
+wine,wall25,periodic4,80,0,0,0.0,1.0,1.0
+wine,wall25,bernoulli4,80,0,0,0.0,1.0,1.0
+wine,fixed64,periodic4,80,0,0,0.0,1.0,1.0
+wine,fixed64,bernoulli4,80,0,0,0.0,1.0,1.0
+fashion,wall25,periodic4,80,2,0,0.025,0.5,1.0
+fashion,wall25,bernoulli4,80,2,0,0.025,0.5,1.0
+fashion,fixed64,periodic4,80,2,0,0.025,0.5,1.0
+fashion,fixed64,bernoulli4,80,2,0,0.025,0.5,1.0

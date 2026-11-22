@@ -1,0 +1,12 @@
+*.tex text eol=lf
+*.bib text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.pdf binary
+*.png binary
+# Keep supplied IEEE template assets byte-for-byte intact.
+docs/paper/ieeeconf.cls -text -whitespace
+docs/paper/IEEEtran.bst -text -whitespace
+docs/templates/IEEE-conference-template-062824/** -text -whitespace

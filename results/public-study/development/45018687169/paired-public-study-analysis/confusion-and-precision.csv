@@ -1,0 +1,17 @@
+workload,budget_seconds,policy,tp,fp,fn,tn,precision,recall
+digits,0.025,finite,0,0,60,10,,0.0
+digits,0.025,validation_loss,30,0,30,10,1.0,0.5
+digits,0.025,seven,60,10,0,0,0.8571428571428571,1.0
+digits,0.025,seven_plus_updates,60,10,0,0,0.8571428571428571,1.0
+digits,0.25,finite,0,0,60,10,,0.0
+digits,0.25,validation_loss,30,0,30,10,1.0,0.5
+digits,0.25,seven,50,0,10,10,1.0,0.8333333333333334
+digits,0.25,seven_plus_updates,60,0,0,10,1.0,1.0
+wine,0.025,finite,0,0,60,10,,0.0
+wine,0.025,validation_loss,30,0,30,10,1.0,0.5
+wine,0.025,seven,50,0,10,10,1.0,0.8333333333333334
+wine,0.025,seven_plus_updates,60,0,0,10,1.0,1.0
+wine,0.25,finite,0,0,60,10,,0.0
+wine,0.25,validation_loss,30,0,30,10,1.0,0.5
+wine,0.25,seven,50,0,10,10,1.0,0.8333333333333334
+wine,0.25,seven_plus_updates,60,0,0,10,1.0,1.0
